@@ -406,41 +406,14 @@ Footer
 =============
 */
 
-.flex-container {
+/* .flex-container {
 	background-color: white;
 	display: flex;
 	flex-direction: row;
 	text-align: center;
   overflow: hidden;
 
-}
-
-.flex-info {
-  background-color: white;
-	padding: 1rem;
-	margin: 1rem;
-	width: 20rem;
-	flex: 50%;
-  text-align: left;
-  
-
-}
-
-.flex-img {
-	max-width: 20rem;
-  max-height: 40vh;
-	flex: 50%;
-  overflow: hidden;
-  position: relative;
-  top: 0;
-  right: 0;
-  
-}
-
-.flex-item p {
-	padding-top: 1rem;
-}
-
+} */
 
 /* 
 .modal-btn {
@@ -459,6 +432,22 @@ Footer
 Carousel
 ============
 */
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: white;       
+  }
+        
+  .awareness-figure {
+  background-color: black;
+  width: 33.31vw;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  }
+  
+
 .carousel-container {
   max-width: 90vw;
   position: relative;
@@ -473,6 +462,110 @@ Carousel
   overflow: hidden;
 }
 
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  
+  #logo {
+    position: absolute;
+    top: 0px;
+    left: 35vw;
+ }
+
+  #hero-image-main-text {
+    position: absolute; 
+    top: 250px; 
+    left: 10px;
+    font-size: 25px;
+    text-size-adjust: 80%;
+    letter-spacing: 4px;  
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px; 
+  }
+  
+  .mobile-remove {
+    display: none;
+  }
+
+  .about-section {
+    background-image: none;
+  }
+
+  .team-text {
+    left: 0px;
+    width: 300px
+  }
+
+  .flex-container {
+    display: block;
+    /* justify-content: flex-start;
+    flex-direction: row; */
+    background-color: white; 
+    padding-left: 0;      
+    }
+          
+    .awareness-image {
+    width: 100vw;
+    margin-bottom: 0;
+    }
+          
+    .awareness-figure {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    width: 80vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    
+    .awareness-caption {
+    align-self: flex-start;
+    text-align: center;
+    border-bottom: none;
+    font-size: 100%;
+    width: 75vw;
+    }
+    
+    .more-info {
+      text-decoration: none;
+    }
+
+    #about-container {
+      background-color:white;
+      width: 100%; 
+      }
+    
+    
+      .about-section{
+        background-image: none;
+        background-size: 100%;
+        background-color: #fdfdfd;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    .inner-container{
+        width: 90%;
+        float: right;
+        background-color: #fdfdfd;
+        padding: 25px;
+    }
+    
+    .inner-container h1{
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .team-text{
+        font-size: 13px;
+        color: #545454;
+        line-height: 30px;
+        text-align: justify;
+        margin-bottom: 10px;
+        padding-right: 100px;
+    }
+
 /* @media screen and (max-width: 800px) {
   .carousel {
     display: flex; 
@@ -481,16 +574,9 @@ Carousel
   padding: 0; 
   overflow: hidden;
 } */
-
-.carousel-container li { 
-  display: block; 
-  list-style: none; 
-  overflow: hidden;
 }
 
-.carousel {
-  display: none;
-}
+
 
 .carousel-text {
   position: relative; 
@@ -504,7 +590,7 @@ Carousel
 
 }
 
-.carousel:hover {
+.awareness-figure:hover {
    overflow: hidden;
    opacity: 0.7;
   }
