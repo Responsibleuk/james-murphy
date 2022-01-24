@@ -441,55 +441,7 @@ Footer
 	padding-top: 1rem;
 }
 
-/* 
-============
-Reactive
-============
-*/
 
-@media screen and (max-width: 1200px) {
-  .flex-container {
-	
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    overflow: hidden;
-    margin-top: 10rem;
-  
-  }
-  .home-container{
-    width: 100vw;
-    height: auto;
-    position: relative;
-    margin-top: 10vw;
-   
-  }
-
-  .flex-info {
-    
-    width: 70vw;
-    height: 30vh;
-    flex: 50%;
-    text-align: left;
-    
-  
-  }
-
-  .flex-img {
-    max-height: 30vh;
-    flex: 50%;
-    background-color: var(--clr-primary-10);
-    box-shadow: var(--light-shadow);
-    overflow: hidden;
-    position: relative;
-    border-top-left-radius: 50%;
-    top: 0;
-    right: 0;
-    
-  }
-  
-	
-}
 /* 
 .modal-btn {
 	margin-top: 2rem;
@@ -514,8 +466,21 @@ Carousel
 }
 
 .carousel-container ul { 
-  display: flex; margin: 0; padding: 0; overflow: hidden;
+  display: flex; 
+  flex-direction: row;
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden;
 }
+
+/* @media screen and (max-width: 800px) {
+  .carousel {
+    display: flex; 
+  flex-direction: column;
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden;
+} */
 
 .carousel-container li { 
   display: block; 
@@ -642,5 +607,5 @@ Modal
 	text-align: center;
 	background: var(--background);
 	height: auto;
-	padding: 2rem
+	padding: 2rem;
 }
