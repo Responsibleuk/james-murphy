@@ -137,7 +137,7 @@ nav {
 
 .nav-toggle {
 	font-size: 1.5rem;
-	color: var(--clr-primary-5);
+	color: white;
 	background: transparent;
 	border-color: transparent;
 	transition: var(--transition);
@@ -145,7 +145,7 @@ nav {
 }
 
 .nav-toggle:hover {
-	color: var(--clr-primary-1);
+	color: var(--clr-primary-3);
 	transform: rotate(90deg);
 }
 
@@ -155,7 +155,9 @@ nav {
 }
 
 .logo {
-	height: 15vh;
+	height: 10vh;
+  max-width: 25vw;
+  object-fit: contain;
 }
 
 .menu a {
