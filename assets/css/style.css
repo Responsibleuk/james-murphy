@@ -513,7 +513,9 @@ Carousel
 }
 
 .carousel-container li { 
-  display: block; list-style: none; 
+  display: block; 
+  list-style: none; 
+  overflow: hidden;
 }
 
 .carousel {
@@ -523,8 +525,22 @@ Carousel
 .carousel-text {
   position: relative; 
   bottom: 10rem;
-  left: 2rem;
+  left: 5rem;
 }
+
+.carousel-text:hover {
+  color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.2);
+
+}
+
+.carousel:hover {
+   overflow: hidden;
+   opacity: 0.4;
+   color: rgba(233, 243, 88, 0.8)
+  
+  }
+
 
 
 /* 
