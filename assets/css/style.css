@@ -375,12 +375,14 @@ Footer
 
 .section-center {
 	width: 100vw;
+  
 	margin: 2rem auto;
 	padding: 0rem 2rem 0rem 2rem;
 	max-width: 1170px;
 }
 
 .home-img {
+  display: block;
   width: 30vw;
   height: 100vh;
   margin: 2.5rem;
@@ -388,6 +390,7 @@ Footer
 }
 
 .home-info {
+  display: block;
 	width: 30vw;
   height: 100vh;
   margin: 2.5rem;
