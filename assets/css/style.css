@@ -764,6 +764,8 @@ a {
     color: #fff;
 }
 
+
+
 .footer-content-column ul li a {
   color: #fff;
   text-decoration: none;
@@ -986,7 +988,7 @@ Nav Dropdown
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 2rem;
   text-decoration: none;
@@ -1022,8 +1024,7 @@ Nav Dropdown
   position: absolute;
   background: rgba(0, 0, 0, 0.8);
   min-width: 160px;
-  
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .dropdown-content a {
@@ -1036,12 +1037,11 @@ Nav Dropdown
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  font-size: 120%;
   color: white;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
   color: black;
 }
 
