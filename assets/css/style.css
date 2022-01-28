@@ -256,6 +256,7 @@ nav {
   }
 }
 
+/* About */
 #hero-image-about {
   height: 80vh;
   width: auto;
@@ -264,6 +265,7 @@ nav {
   background: url(../images/about.jpg) no-repeat center center;
   
 }
+
 
 @media screen and (min-width: 600vw) {
   #hero-image-about {
@@ -280,27 +282,13 @@ nav {
   
 }
 
-@media screen and (min-width: 600vw) {
+@media screen and (max-width: 968px) {
   #hero-image-foe {
     background: url(../images/foe-mobile.jpg) no-repeat center center;
   }
 }
 
-#hero-image-foe {
-  height: 80vh;
-  width: auto;
-  object-fit: contain;
-  overflow: hidden;
-  background: url(../images/foe-header.jpg) no-repeat center center;
-  
-}
-
-@media screen and (min-width: 600vw) {
-  #hero-image-foe {
-    background: url(../images/foe-mobile.jpg) no-repeat center center;
-  }
-}
-
+/* Climate Reality Project */
 #hero-image-crp {
   height: 80vh;
   width: auto;
@@ -310,7 +298,7 @@ nav {
   
 }
 
-@media screen and (min-width: 600vw) {
+@media screen and (max-width: 968px) {
   #hero-image-crp {
     background: url(../images/crp-mobile.jpg) no-repeat center center;
   }
