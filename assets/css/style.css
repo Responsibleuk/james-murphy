@@ -999,6 +999,8 @@ Nav Dropdown
 
 .active {
   color: yellow;
+  text-emphasis-color: yellow;
+  text-decoration-color: yellow;
 }
 
 .topnav .icon {
