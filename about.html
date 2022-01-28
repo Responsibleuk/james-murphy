@@ -14,45 +14,60 @@
 
 <body>
 
-
-
     <header>
         <!-- navigation menu -->
         <nav>
             <div class="nav-center">
                 <!-- nav header -->
                 <div class="nav-header">
-                    <img src="assets/images/jm-logo.png" class="logo" alt="kind-cornwall-logo" />
-                    <button class="nav-toggle">
-                        <i class="fas fa-bars"></i>
-                    </button>
+                    <img src="assets/images/jm-logo.jpg" class="logo" alt="kind-cornwall-logo" />
                 </div>
                 <!-- links -->
-                <ul class="menu">
-                    <li>
-                        <a href="index.html" class="active">home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">about</a>
-                    </li>
-                    <li>
-                        <a href="experience.html">experience</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">portfolio</a>
-                    </li>
-                    <li>
-                        <a href="playbook.html">playbook</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">contact</a>
-                    </li>
-                </ul>
+                <div class="topnav" id="myTopnav">
+
+                    <a href="about.html" class="active">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Projects
+
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Responsible</a>
+                            <a href="#">The Local Business Awards</a>
+                            <a href="#">Future of Earth</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Experience
+
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Climate Reality Project</a>
+                            <a href="#">Communities</a>
+                            <a href="#">Consulting</a>
+                            <a href="#">Coaching</a>
+                            <a href="#">Public Speaking</a>
+                        </div>
+                    </div>
+
+                    <a href="#contact">Contact</a>
+
+                    <a href="javascript:void(0);" style="font-size:35px;" class="icon"
+                        onclick="myFunction()">&#9776;</a>
+
+
+
+                </div>
 
             </div>
         </nav>
 
     </header>
+
+    
 
     <section id="hero-image-about">
 

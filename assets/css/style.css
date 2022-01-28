@@ -154,14 +154,11 @@ nav {
 	transform: rotate(90deg);
 }
 
-/* .active {
-	border-bottom: 1px solid var(--clr-orange);
-	margin-top: 1vw;
-} */
+
 
 .logo {
 	height: 10vh;
-  max-width: 25vw;
+  max-width: 20vw;
   object-fit: contain;
 }
 
@@ -1001,7 +998,7 @@ Nav Dropdown
 }
 
 .active {
-  color: white;
+  color: yellow;
 }
 
 .topnav .icon {
