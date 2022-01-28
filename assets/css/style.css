@@ -128,6 +128,7 @@ Nav Bar
 ===============
 */
 
+
 nav {
 	background: black;
 
@@ -269,6 +270,22 @@ nav {
     background: url(../images/about.jpg) no-repeat center center;
   }
 }
+
+#hero-image-foe {
+  height: 80vh;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../images/foe-header.jpg) no-repeat center center;
+  
+}
+
+@media screen and (min-width: 600vw) {
+  #hero-image-foe {
+    background: url(../images/foe-mobile.jpg) no-repeat center center;
+  }
+}
+
 /* #hero-image-text { 
 position: absolute; 
 top: 125px; 
