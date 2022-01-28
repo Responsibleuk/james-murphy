@@ -301,6 +301,21 @@ nav {
   }
 }
 
+#hero-image-crp {
+  height: 80vh;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../images/crp.jpg) no-repeat center center;
+  
+}
+
+@media screen and (min-width: 600vw) {
+  #hero-image-crp {
+    background: url(../images/crp-mobile.jpg) no-repeat center center;
+  }
+}
+
 #hero-image-portfolio {
   height: 80vh;
   width: auto;
