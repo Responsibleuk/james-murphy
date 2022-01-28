@@ -244,11 +244,11 @@ nav {
   */
 
 #hero-image {
-  height: 80vh;
+  height: 85vh;
   width: auto;
   object-fit: contain;
   overflow: hidden;
-  background: url(../images/james-murphy-hero.png) no-repeat center center;
+  background: url(../images/jm-logo-2.jpg) no-repeat center center;
 }
 
 @media screen and (max-width: 968px) {
