@@ -1041,7 +1041,7 @@ Nav Dropdown
   text-transform: capitalize;
 }
 
-.active {
+.topnav .active {
   color: yellow;
   text-emphasis-color: yellow;
   text-decoration-color: yellow;
@@ -1049,6 +1049,12 @@ Nav Dropdown
 
 .topnav .icon {
   display: none;
+  
+}
+
+.topnav .icon:hover{
+  
+  transform: rotate(90deg);
 }
 
 .dropdown {
@@ -1093,10 +1099,12 @@ Nav Dropdown
 .topnav a:hover, .dropdown:hover .dropbtn {
   
   color: yellow;
+ 
 }
 
 .dropdown-content a:hover {
   color: yellow;
+  
 }
 
 .dropdown:hover .dropdown-content {
