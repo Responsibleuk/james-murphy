@@ -246,13 +246,13 @@ nav {
   width: auto;
   object-fit: contain;
   overflow: hidden;
-  background: url(../images/jm-hero2.png) no-repeat center center;
+  background: url(../images/1.jpg) no-repeat center center;
 }
 
 @media screen and (max-width: 968px) {
   
   #hero-image {
-    background: url(../images/jm-hero2-mobile.png) no-repeat center center;
+    background: url(../images/2.jpg) no-repeat center center;
   }
 }
 
@@ -1034,9 +1034,9 @@ Nav Dropdown
   display: block;
   color: white;
   text-align: center;
-  padding: 1rem;
   text-decoration: none;
   font-size: 1rem;
+  margin-right: 1rem;
   font-family: var(--ff-secondary);
   text-transform: capitalize;
 }
@@ -1067,11 +1067,10 @@ Nav Dropdown
   border: none;
   outline: none;
   color: white;
-  padding: 1rem;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
   font-size: 1rem;
+  margin-right: 1rem;
   font-family: var(--ff-secondary);
   text-transform: capitalize;
 }
@@ -1096,7 +1095,7 @@ Nav Dropdown
   text-transform: capitalize;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover, .dropdown:hover .dropbtn:hover {
   
   color: yellow;
  
@@ -1112,7 +1111,11 @@ Nav Dropdown
 }
 
 @media screen and (max-width: 900px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:first-child, .dropdown .dropbtn {
+    display: none;
+  }
+
+  .topnav a {
     display: none;
   }
   .topnav a.icon {
