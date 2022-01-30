@@ -246,13 +246,13 @@ nav {
   width: auto;
   object-fit: contain;
   overflow: hidden;
-  background: url(../images/jm-hero.jpg) no-repeat center center;
+  background: url(../images/jm-hero.png) no-repeat center center;
 }
 
 @media screen and (max-width: 968px) {
   
   #hero-image {
-    background: url(../images/jm-hero-mobile.jpg) no-repeat center center;
+    background: url(../images/jm-hero-mobile.png) no-repeat center center;
   }
 }
 
