@@ -135,6 +135,10 @@ Nav Bar
   object-fit: contain;
 }
 
+.logo:hover {
+  transform: scale(1.2);
+}
+
 @media screen and (min-width: 800px) {
 	.nav-center {
 		max-width: 1170px;
