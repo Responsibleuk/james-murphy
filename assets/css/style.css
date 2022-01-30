@@ -274,20 +274,20 @@ nav {
 
 /* About */
 #hero-image-about {
-  height: 80vh;
+  height: 85vh;
   width: auto;
   object-fit: contain;
   overflow: hidden;
-  background: url(../images/about.jpg) no-repeat center center;
-  
+  background: url(../images/1.jpg) no-repeat center center;
 }
 
-
-@media screen and (min-width: 600vw) {
+@media screen and (max-width: 968px) {
+  
   #hero-image-about {
-    background: url(../images/about.jpg) no-repeat center center;
+    background: url(../images/2.jpg) no-repeat center center;
   }
 }
+
 
 #hero-image-foe {
   height: 80vh;
