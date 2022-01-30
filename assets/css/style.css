@@ -246,7 +246,7 @@ nav {
   width: auto;
   object-fit: contain;
   overflow: hidden;
-  background: url(../images/3.jpg) no-repeat center center;
+  background: url(../images/1.jpg) no-repeat center center;
 }
 
 @media screen and (max-width: 968px) {
@@ -262,13 +262,13 @@ nav {
   width: auto;
   object-fit: contain;
   overflow: hidden;
-  background: url(../images/2.jpg) no-repeat center center;
+  background: url(../images/3.jpg) no-repeat center center;
 }
 
 @media screen and (max-width: 968px) {
   
   #hero-image-contact {
-    background: url(../images/3.jpg) no-repeat center center;
+    background: url(../images/4.jpg) no-repeat center center;
   }
 }
 
