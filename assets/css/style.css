@@ -129,68 +129,10 @@ Nav Bar
 */
 
 
-nav {
-	background: black;
-
-}
-
-.nav-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 1rem;
-}
-
-.nav-toggle {
-	font-size: 1.5rem;
-	color: white;
-	background: transparent;
-	border-color: transparent;
-	transition: var(--transition);
-	cursor: pointer;
-}
-
-.nav-toggle:hover {
-	color: var(--clr-primary-3);
-	transform: rotate(90deg);
-}
-
-
-
 .logo {
 	height: 10vh;
   max-width: 20vw;
   object-fit: contain;
-}
-
-.menu a {
-	color: var(--clr-grey-3);
-	font-size: 1rem;
-	text-transform: capitalize;
-	letter-spacing: var(--spacing);
-	display: block;
-	padding: 0.5rem 1rem;
-	transition: var(--transition);
-}
-
-.menu a:hover {
-	background: black;
-	color: white;
-	padding-left: 1.5rem;
-}
-
-.social-icons {
-	display: none;
-}
-
-.menu {
-	height: 0;
-	overflow: hidden;
-	transition: var(--transition);
-}
-
-.show-menu {
-	height: 15rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -202,6 +144,7 @@ nav {
 		justify-content: space-between;
 		padding: 1rem;
 	}
+
 	.nav-header {
 		padding: 0;
 	}
@@ -231,7 +174,7 @@ nav {
 	.social-icons a:hover {
 		color: var(--clr-primary-7);
 	}
-}
+} */
 
 
 
@@ -1131,6 +1074,10 @@ Nav Dropdown
     display: none;
   }
 
+  .logo {
+    width: 50vw;
+  }
+
   .topnav a {
     display: none;
   }
@@ -1141,16 +1088,28 @@ Nav Dropdown
 }
 
 @media screen and (max-width: 900px) {
+
+.logo {
+	height: 10vh;
+  max-width: 40vw;
+  object-fit: contain;
+  margin-left: 10vw;
+}
+}
+
+@media screen and (max-width: 900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
+    margin-left: 1rem;
   }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
+    margin: 1rem;
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
@@ -1158,5 +1117,6 @@ Nav Dropdown
     display: block;
     width: 100%;
     text-align: left;
+    margin: 1rem;
   }
 }
