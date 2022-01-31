@@ -92,6 +92,7 @@ Variables
    
     font-size: 1rem;
     color: var(clr-grey-1);
+    margin-bottom: 1rem;
   }
 
   main {
@@ -351,11 +352,15 @@ Footer
  
 }
 
- .home-container{
-  width: 75vw;
-  height: 35vh;
-  margin-left: 12.5vw;
+.title {
+  text-align: center;
   margin-bottom: 5rem;
+}
+
+ .home-container{
+  width: 90vw;
+  height: 35vh;
+  margin: 5rem;
 }
 
 
@@ -461,17 +466,43 @@ Carousel
 ============
 */
 
+.news {
+  background-color: rgba(255, 255, 255, 0.8);   
+  margin-bottom: 5rem;  
+  }
+
+  .news {
+    background-color: transparent;   
+    margin: 2.5rem;  
+    }
+
+.news-info:hover {
+
+  transform: scale(1.05);
+}
+
+
+
 .flex-container {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  background-color: black;   
+  background-color: rgba(255, 255, 255, 0.2);   
   margin-bottom: 5rem;  
   }
 
-/* .flex-item {
-margin: 5rem;
-} */
+.flex-info:hover {
+
+  transform: scale(1.05);
+}
+
+.readon {
+  color: var(--clr-primary-5) 
+  }
+
+  .readon:hover {
+    color: yellow;
+    }
         
   .awareness-figure {
   background-color: black;
