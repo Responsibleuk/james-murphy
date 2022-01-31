@@ -346,8 +346,9 @@ Footer
 */
 
 .sub-container{
-  max-width: 100vw;
+  max-width: 75vw;
   height: auto;
+  margin-left: 12.5vw;
   margin-bottom: 15vh;
  
 }
@@ -359,8 +360,8 @@ Footer
 
  .home-container{
   width: 90vw;
-  max-height: 10vh;
-  margin-top: 5rem;
+  /* max-height: 10vh; */
+  margin: 2.5rem;
 }
 
 
@@ -468,13 +469,30 @@ Carousel
 
 .news {
   background-color: rgb(44, 42, 42);    
-  border-radius: 10px;
+  border-radius: 2px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  max-height: 10vh;
-  padding: 2.5rem;
-    }
+  /* max-height: 10vh; */
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  }
+
+  .news i {
+    margin-top: .5rem;
+  size: 5rem;
+  color: yellow;
+
+  }
+  
+  .news h2 {
+    
+  margin-left: 3rem;
+
+  }
+    
 
 .news-info {
   margin-top: 2.5rem; 
@@ -488,9 +506,9 @@ Carousel
       /* color:hsl(205, 74%, 48%);  */
         }
 
-.news-info:hover {
-  color:hsl(205, 74%, 48%, 0.6); 
-  transform: scale(1.05);
+.news:hover {
+  background-color: rgb(24, 22, 22);
+  transform: scale(1.01);
 }
 
 
@@ -648,8 +666,8 @@ Carousel
 }
 
 .carousel-text:hover {
-  text-decoration: underline;
-  color: blue;
+  transform: scale(1.01);
+  color: yellow;
   /* transform: scale(1.05); */
 
 }
