@@ -359,8 +359,8 @@ Footer
 
  .home-container{
   width: 90vw;
-  height: 35vh;
-  margin: 5rem;
+  max-height: 10vh;
+  margin-top: 5rem;
 }
 
 
@@ -468,18 +468,25 @@ Carousel
 
 .news {
   background-color: rgb(44, 42, 42);    
-  border-radius: 25px;
+  border-radius: 10px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  margin: 2.5rem;
+  max-height: 10vh;
+  padding: 2.5rem;
     }
 
 .news-info {
-  margin: 2.5rem; 
+  margin-top: 2.5rem; 
   padding: 2.5rem;
   /* color:hsl(205, 74%, 48%);  */
     }
+
+    .news-icon {
+      margin-top: 2.5rem; 
+      padding: 2.5rem;
+      /* color:hsl(205, 74%, 48%);  */
+        }
 
 .news-info:hover {
   color:hsl(205, 74%, 48%, 0.6); 
