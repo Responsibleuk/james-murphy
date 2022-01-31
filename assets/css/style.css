@@ -1198,3 +1198,13 @@ Nav Dropdown
     margin: 1rem;
   }
 }
+
+
+/* form */
+
+.form-container {
+	max-width: 40rem;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
