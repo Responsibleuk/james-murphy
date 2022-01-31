@@ -467,17 +467,22 @@ Carousel
 */
 
 .news {
-  background-color: rgba(255, 255, 255, 0.8);   
-  margin-bottom: 5rem;  
-  }
+  background-color: rgb(44, 42, 42);    
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 2.5rem;
+    }
 
-  .news {
-    background-color: transparent;   
-    margin: 2.5rem;  
+.news-info {
+  margin: 2.5rem; 
+  padding: 2.5rem;
+  /* color:hsl(205, 74%, 48%);  */
     }
 
 .news-info:hover {
-
+  color:hsl(205, 74%, 48%, 0.6); 
   transform: scale(1.05);
 }
 
