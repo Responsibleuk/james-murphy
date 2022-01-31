@@ -465,7 +465,8 @@ Carousel
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  background-color: black;     
+  background-color: black;   
+  margin-bottom: 5rem;  
   }
 
 /* .flex-item {
@@ -475,6 +476,9 @@ margin: 5rem;
   .awareness-figure {
   background-color: black;
   width: 33.31vw;
+  overflow: hidden;
+  max-height: 460px;
+
   /* padding-left: 10px;
   padding-right: 10px; */
   }
@@ -601,7 +605,14 @@ margin: 5rem;
 }
 
 .carousel-text:hover {
-  
+  text-decoration: underline;
+  color: blue;
+  /* transform: scale(1.05); */
+
+}
+
+.carousel li:hover {
+ 
   transform: scale(1.05);
 
 }
