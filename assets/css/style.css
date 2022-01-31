@@ -468,9 +468,9 @@ Carousel
   background-color: black;     
   }
 
-.flex-item {
+/* .flex-item {
 margin: 5rem;
-}
+} */
         
   .awareness-figure {
   background-color: black;
@@ -601,14 +601,15 @@ margin: 5rem;
 }
 
 .carousel-text:hover {
-  color: rgba(255, 255, 255, 0.8);
+  
   transform: scale(1.05);
 
 }
 
 .awareness-figure:hover {
    overflow: hidden;
-   opacity: 0.7;
+   
+   transform: scale(1.05);
   }
 
 /* 
