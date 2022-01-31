@@ -836,8 +836,8 @@ a {
 .footer-content-column {
     box-sizing: border-box;
     float: left;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5rem;
+    
     width: 100%;
     color: #fff;
 }
