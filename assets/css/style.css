@@ -205,6 +205,53 @@ Nav Bar
   }
 }
 
+#hero-image-website {
+  height: 85vh;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../images/hero-images/website.jpg) no-repeat center center;
+}
+
+@media screen and (max-width: 968px) {
+  
+  #hero-image-website {
+    background: url(../images/5.jpg) no-repeat center center;
+  }
+}
+
+#hero-image-future {
+  height: 85vh;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../images/hero-images/future-academy.jpg) no-repeat center center;
+}
+
+@media screen and (max-width: 968px) {
+  
+  #hero-image-website {
+    background: url(../images/5.jpg) no-repeat center center;
+  }
+}
+
+#hero-image-playbook {
+  height: 85vh;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../images/hero-images/playbook.jpg) no-repeat center center;
+}
+
+@media screen and (max-width: 968px) {
+  
+  #hero-image-website {
+    background: url(../images/5.jpg) no-repeat center center;
+  }
+}
+
+
+
 /* contact */
 #hero-image-contact {
   height: 85vh;
