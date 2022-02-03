@@ -216,7 +216,7 @@ Nav Bar
 @media screen and (max-width: 968px) {
   
   #hero-image-website {
-    background: url(../images/5.jpg) no-repeat center center;
+    background: url(../images/hero-images/website-mobile.png) no-repeat center center;
   }
 }
 
@@ -243,12 +243,7 @@ Nav Bar
   background: url(../images/hero-images/playbook.jpg) no-repeat center center;
 }
 
-@media screen and (max-width: 968px) {
-  
-  #hero-image-website {
-    background: url(../images/5.jpg) no-repeat center center;
-  }
-}
+
 
 
 
@@ -450,7 +445,7 @@ Footer
 .home-info {
   display: block;
 	width: 30vw;
-  height: 100vh;
+  height: 80vh;
   margin: 2.5rem;
   background-color: black;
 }
@@ -875,6 +870,8 @@ a {
 .footer-content {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
     max-width: 1230px;
     padding: 10px 5px 45px;
     position: relative;
@@ -1088,7 +1085,7 @@ a {
       margin-left: auto;
       margin-right: auto;
       max-width: 1230px;
-      padding: 40px 15px 450px;
+      padding: 40px 15px 45px;
       position: relative;
   }
 
