@@ -243,7 +243,20 @@ Nav Bar
   background: url(../images/hero-images/playbook.jpg) no-repeat center center;
 }
 
+#hero-image-branding {
+  height: 85vh;
+  width: auto;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../images/hero-images/pb.jpg) no-repeat center center;
+}
 
+@media screen and (max-width: 968px) {
+  
+  #hero-image-branding {
+    background: url(../images/hero-images/pb-mobile.jpg) no-repeat center center;
+  }
+}
 
 
 
@@ -396,6 +409,11 @@ Footer
  
 }
 
+.sub-container h1{
+  text-align: center;
+  padding: 2.5rem;
+}
+
 .title {
   text-align: center;
   margin-bottom: 5rem;
@@ -404,7 +422,7 @@ Footer
  .home-container{
   width: 100vw;
   /* max-height: 10vh; */
-  margin: 2.5rem;
+  
 }
 
 
